@@ -19,14 +19,23 @@ To write a Python code to create a class for a person with a parameterized const
 7. Create an instance `s1` of the `person` class by passing the entered `name` and `userid` to the constructor.  
 8. Terminate the program.
 
----
-
 ### PROGRAM
-
-```
-
-```
+class Student:  <br>
+    def __init__(self,a,b):  <br>
+        self.roll=a   <br>
+        self.name=b   <br>
+    def show(self):  <br>
+        print("Hello my id is :", self.roll)  <br>
+        print("My name is :", self.name)  <br>
+name=input()  <br>
+roll=input()  <br>
+s1 = Student(name,roll)  <br>
+s1.show()
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/23870bbc-1380-47c8-90b9-950ad285fb77)
+
+
 ### RESULT
+Thus a Python code to create a class for a person with a parameterized constructor, which will take the name and userid of the person as parameters and print the userid of the person has been implemented and executed.
